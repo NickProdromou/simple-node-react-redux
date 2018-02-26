@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "diskdb": "^0.1.17",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2",
+    "nodemon": "^1.15.1",
+    "superagent": "^3.8.2",
+    "supertest": "^3.0.0"
+  }
+}
